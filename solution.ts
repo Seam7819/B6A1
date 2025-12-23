@@ -1,4 +1,4 @@
-//Problem 01
+
 
 function formatValue(value: number | string | boolean): number | string | boolean {
     if (typeof value === 'string') {
@@ -12,7 +12,7 @@ function formatValue(value: number | string | boolean): number | string | boolea
 }
 
 
-// Problem 02
+
 
 function getLength(value: string | any[]): number {
     if (Array.isArray(value)) {
@@ -25,7 +25,7 @@ function getLength(value: string | any[]): number {
     }
 }
 
-// Problem 03 
+
 
 class Person {
 
@@ -46,7 +46,7 @@ const person2 = new Person('Alice', 25);
 
 
 
-// Problem 04
+
 
 interface RatedItem {
     title: string;
@@ -63,7 +63,7 @@ const books: RatedItem[] = [
     { title: 'Book C', rating: 5.0 },
 ];
 
-// Problem 05
+
 
 interface User {
     id: number;
@@ -82,7 +82,7 @@ const users: User[] = [
     { id: 3, name: 'Rumi', email: 'rumi@example.com', isActive: true },
 ];
 
-// Problem 06
+
 
 interface Book {
     title: string;
@@ -106,7 +106,7 @@ const myBook: Book = {
 
 printBookDetails(myBook);
 
-// Problem 07
+
 
 function getUniqueValues<T extends string | number>(arr1: T[], arr2: T[]): T[] {
     const result: T[] = [];
@@ -136,7 +136,7 @@ function getUniqueValues<T extends string | number>(arr1: T[], arr2: T[]): T[] {
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [3, 4, 5, 6, 7];
 
-// Problem 08
+
 
 interface Product {
     name: string;
