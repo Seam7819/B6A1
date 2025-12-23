@@ -142,7 +142,7 @@ interface Product {
     name: string;
     price: number;
     quantity: number;
-    discount?: number; // The '?' makes this property optional
+    discount?: number; 
 }
 
 function calculateTotalPrice(products: Product[]): number {
